@@ -1,0 +1,57 @@
+
+.slot-box {
+
+	display: flex;
+
+	flex-direction: row;
+	align-items: center;
+}
+.slot-image {
+
+	display: block;
+
+	margin-right: 10px;
+	width: 30px;
+	height: 30px;
+}
+.slot-text {
+	flex: 1;
+	font-size: 14px;
+	color: #94bcff;
+	margin-right: 10px;
+}
+.color {
+	color: #000000;
+}
+.one {
+	color: red;
+}
+.two {
+	color: blue;
+}
+.three {
+	color: yellow;
+}
+.noData{
+	text-align: center;
+}
+.noLogin,.noData {
+	width: 80%;
+	height: 450rpx;
+	margin: 40rpx auto;
+}
+.noLogin_img {
+	width: 100%;
+	height: 100%;
+}
+.noLogin_btn {
+	border-radius: 30rpx;
+	width: 400rpx;
+	height: 100rpx;
+	border: 1px solid;
+	text-align: center;
+	line-height: 100rpx;
+	margin: 150rpx auto;
+	color: #FF5F15;
+}
+

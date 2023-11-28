@@ -1,0 +1,46 @@
+
+.banner image{
+	width: 100%;
+	height: 240px;
+}
+.info {
+	padding: 20rpx;
+}
+.title {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid #e9e9eb;
+	padding-bottom: 20rpx;
+}
+.content {
+	display: flex;
+	/* justify-content: space-between; */
+	align-items: center;
+	padding-top: 40rpx;
+}
+.cnt_txt {
+	padding-left: 30rpx;
+}
+.cnt_img {
+	width: 250rpx;
+	height: 300rpx;
+}
+.txt_isbn {
+	font-size: 30rpx;
+	color: #ccc;
+}
+.briefIntro {
+	padding-top: 30rpx;
+}
+.briefIntro_title {
+	font-size: 34rpx;
+	font-weight: bold;
+}
+.briefIntro_cnt {
+	font-size: 30rpx;
+	color: #909399;
+	padding-top: 20rpx;
+	padding-bottom: 50rpx;
+}
+

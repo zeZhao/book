@@ -1,0 +1,8 @@
+
+.info {
+	padding: 20rpx;
+}
+.uni-file-picker {
+	margin-left: 42%;
+}
+

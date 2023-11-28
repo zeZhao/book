@@ -1,0 +1,39 @@
+
+.search_inp {
+	width: 80%;
+	display: inline-block;
+	vertical-align: super;
+}
+.list_box{
+	width: 80%;
+	margin: 30rpx auto;
+	height: 300rpx;
+	display: flex;
+	flex-direction: column;
+	border: 1px solid #ebeef5;
+	box-shadow: rgba(0, 0, 0, 0.08) 0px 0px 3px 1px;
+	    padding: 30rpx;
+	    line-height: 50rpx;
+		border-radius: 30rpx;
+}
+.amount{
+	font-size: 30rpx;
+	color: #8f939c;
+	    display: flex;
+	    justify-content: space-between;
+}
+.time{
+	font-size: 26rpx;
+	color: #8f939c;
+	    margin: 20rpx 0;
+}
+.timeColor{
+	color: #18bc37;
+}
+.handle{
+	text-align: right;
+}
+.tag{
+	margin-right: 20rpx;
+}
+

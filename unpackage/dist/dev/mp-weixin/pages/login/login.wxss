@@ -1,0 +1,30 @@
+
+.identity button {
+	width: 300rpx;
+	margin: 50rpx auto;
+	display: block;
+}
+.verify {
+	padding: 50rpx;
+}
+.verify_item{
+	margin-bottom: 40rpx;
+}
+.button{
+	display: flex;
+	    align-items: center;
+	    justify-content: center;
+	    height: 100rpx;
+	    background: gray;
+	    background: #1aad19;
+	    color: #ffffff;
+	    border-radius: 10rpx;
+}
+.accredit{
+	    position: absolute;
+	    bottom: 70rpx;
+	    left: 37%;
+	    color: #8f939c;
+	    font-size: 30rpx;
+}
+

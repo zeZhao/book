@@ -1,0 +1,88 @@
+
+.swiper_item {
+	background-color: green;
+}
+.swiper_img {
+	width: 100%;
+	height: 350rpx;
+	display: inline-block;
+}
+.config_title {
+	padding: 50rpx 10rpx 30rpx;
+	display: block;
+}
+.config_handle {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.config_handle .list {
+	width: 25%;
+	height: 150rpx;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-bottom: 50rpx;
+}
+.list .list_img {
+	width: 100rpx;
+	height: 100rpx;
+}
+.bookList {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.bookList .list {
+	width: 38%;
+	display: flex;
+	flex-direction: column;
+	/* border: 1px solid #000000; */
+	/* margin-bottom: 40rpx; */
+	background: #fff;
+	padding: 30rpx;
+	border-radius: 10rpx;
+}
+.bookList .list .list_img {
+	width: 100%;
+	height: 250rpx;
+}
+.bookList .list .list_name {
+	display: block;
+	margin: 20rpx 0;
+	font-size: 14px;
+	text-align: left;
+	font-weight: bold;
+}
+.bookList .list .list_btn {
+	margin-left: 0px;
+}
+.popupWrap {
+	width: 540rpx;
+	box-sizing: border-box;
+	padding: 42rpx;
+	background: white;
+	border-radius: 30rpx;
+}
+.blueColor {
+	color: rgba(39, 152, 240, 1);
+}
+.popupTitle{
+	font-size: 40rpx;
+	font-weight: bold;
+	text-align: center;
+}
+.popupTxt {
+	line-height: 48rpx;
+	font-size: 30rpx;
+	    padding: 20rpx;
+}
+.popupBot {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 30rpx;
+}
+

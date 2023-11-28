@@ -1,0 +1,145 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/read/read",
+			"style": {
+				"navigationBarTitleText": "阅读"
+			}
+		},
+		{
+			"path": "pages/ranking/ranking",
+			"style": {
+				"navigationBarTitleText": "排行"
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/my/info/info",
+			"style": {
+				"navigationBarTitleText": "详情信息"
+			}
+		},
+		{
+			"path": "pages/my/readLog/readLog",
+			"style": {
+				"navigationBarTitleText": "阅读记录"
+			}
+		},
+		{
+			"path": "pages/read/bookDetail/bookDetail"
+		},
+		{
+			"path": "pages/index/student/student",
+			"style": {
+				"navigationBarTitleText": "学生列表"
+			}
+		},
+		{
+			"path": "pages/index/student/edit/edit",
+			"style": {
+				"navigationBarTitleText": "学生信息"
+			}
+		},
+		{
+			"path": "pages/index/teacher/teacher",
+			"style": {
+				"navigationBarTitleText": "老师列表"
+			}
+		},
+		{
+			"path": "pages/index/teacher/edit/edit",
+			"style": {
+				"navigationBarTitleText": "老师信息"
+			}
+		},
+		{
+			"path": "pages/index/payment/payment",
+			"style": {
+				"navigationBarTitleText": "缴费记录"
+			}
+		},
+		{
+			"path": "pages/index/class/class",
+			"style": {
+				"navigationBarTitleText": "班级列表"
+			}
+		},
+		{
+			"path": "pages/index/class/edit/edit",
+			"style": {
+				"navigationBarTitleText": "班级信息"
+			}
+		},
+		{
+			"path": "pages/index/books/books",
+			"style": {
+				"navigationBarTitleText": "书库"
+			}
+		},
+	    {
+            "path" : "pages/login/login",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "登录"
+            }
+            
+        },
+		{
+            "path" : "pages/login/administrator",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "管理员登录"
+            }
+            
+        }
+    ],
+	"tabBar": {
+		"color": "#666666",
+		"selectedColor": "#FF5F15",
+		"backgroundColor": "#ffffff",
+		"borderStyle": "black",
+		"list": [{
+				"iconPath": "static/home.png",
+				"selectedIconPath": "static/home_a.png",
+				"pagePath": "pages/index/index",
+				"text": "首页"
+			},
+			{
+				"iconPath": "static/read.png",
+				"selectedIconPath": "static/read_a.png",
+				"pagePath": "pages/read/read",
+				"text": "阅读"
+			},
+			{
+				"iconPath": "static/ranking.png",
+				"selectedIconPath": "static/ranking_a.png",
+				"pagePath": "pages/ranking/ranking",
+				"text": "排行"
+			},
+			{
+				"iconPath": "static/my.png",
+				"selectedIconPath": "static/my_a.png",
+				"pagePath": "pages/my/my",
+				"text": "我的"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}

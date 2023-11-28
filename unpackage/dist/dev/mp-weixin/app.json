@@ -1,0 +1,65 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/read/read",
+    "pages/ranking/ranking",
+    "pages/my/my",
+    "pages/my/info/info",
+    "pages/my/readLog/readLog",
+    "pages/read/bookDetail/bookDetail",
+    "pages/index/student/student",
+    "pages/index/student/edit/edit",
+    "pages/index/teacher/teacher",
+    "pages/index/teacher/edit/edit",
+    "pages/index/payment/payment",
+    "pages/index/class/class",
+    "pages/index/class/edit/edit",
+    "pages/index/books/books",
+    "pages/login/login",
+    "pages/login/administrator"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#666666",
+    "selectedColor": "#FF5F15",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "iconPath": "static/home.png",
+        "selectedIconPath": "static/home_a.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "iconPath": "static/read.png",
+        "selectedIconPath": "static/read_a.png",
+        "pagePath": "pages/read/read",
+        "text": "阅读"
+      },
+      {
+        "iconPath": "static/ranking.png",
+        "selectedIconPath": "static/ranking_a.png",
+        "pagePath": "pages/ranking/ranking",
+        "text": "排行"
+      },
+      {
+        "iconPath": "static/my.png",
+        "selectedIconPath": "static/my_a.png",
+        "pagePath": "pages/my/my",
+        "text": "我的"
+      }
+    ]
+  },
+  "requiredBackgroundModes": [
+    "audio"
+  ],
+  "permission": {},
+  "usingComponents": {}
+}
